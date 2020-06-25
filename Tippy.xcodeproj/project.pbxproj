@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4AB28B24A41C8200A91BF5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AB28A24A41C8200A91BF5 /* SettingsViewController.m */; };
 		1ABC0A8924A3CC7E0023B7BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC0A8824A3CC7E0023B7BC /* AppDelegate.m */; };
 		1ABC0A8C24A3CC7E0023B7BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC0A8B24A3CC7E0023B7BC /* SceneDelegate.m */; };
 		1ABC0A8F24A3CC7E0023B7BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC0A8E24A3CC7E0023B7BC /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4AB28924A41C8200A91BF5 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1A4AB28A24A41C8200A91BF5 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		1ABC0A8424A3CC7E0023B7BC /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABC0A8724A3CC7E0023B7BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1ABC0A8824A3CC7E0023B7BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4AB28C24A41D4D00A91BF5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A4AB28924A41C8200A91BF5 /* SettingsViewController.h */,
+				1A4AB28A24A41C8200A91BF5 /* SettingsViewController.m */,
+				1ABC0A8D24A3CC7E0023B7BC /* ViewController.h */,
+				1ABC0A8E24A3CC7E0023B7BC /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		1ABC0A7B24A3CC7E0023B7BC = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +118,11 @@
 		1ABC0A8624A3CC7E0023B7BC /* Tippy */ = {
 			isa = PBXGroup;
 			children = (
+				1A4AB28C24A41D4D00A91BF5 /* View Controllers */,
 				1ABC0A8724A3CC7E0023B7BC /* AppDelegate.h */,
 				1ABC0A8824A3CC7E0023B7BC /* AppDelegate.m */,
 				1ABC0A8A24A3CC7E0023B7BC /* SceneDelegate.h */,
 				1ABC0A8B24A3CC7E0023B7BC /* SceneDelegate.m */,
-				1ABC0A8D24A3CC7E0023B7BC /* ViewController.h */,
-				1ABC0A8E24A3CC7E0023B7BC /* ViewController.m */,
 				1ABC0A9024A3CC7E0023B7BC /* Main.storyboard */,
 				1ABC0A9324A3CC7F0023B7BC /* Assets.xcassets */,
 				1ABC0A9524A3CC7F0023B7BC /* LaunchScreen.storyboard */,
@@ -269,6 +282,7 @@
 			files = (
 				1ABC0A8F24A3CC7E0023B7BC /* ViewController.m in Sources */,
 				1ABC0A8924A3CC7E0023B7BC /* AppDelegate.m in Sources */,
+				1A4AB28B24A41C8200A91BF5 /* SettingsViewController.m in Sources */,
 				1ABC0A9A24A3CC7F0023B7BC /* main.m in Sources */,
 				1ABC0A8C24A3CC7E0023B7BC /* SceneDelegate.m in Sources */,
 			);

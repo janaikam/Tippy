@@ -24,6 +24,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (void) didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
 - (IBAction)onTap:(id)sender {
     NSLog(@"Hello");
     [self.view endEditing:YES];
@@ -41,5 +45,6 @@
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
 }
+
 
 @end
